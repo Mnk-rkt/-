@@ -34,8 +34,6 @@ class ChatBot {
         setCurrentState("AWAKE");
         loadFile("C:\\answers.txt");
         System.out.println("Hello! How can I help you?\n");
-        System.out.println(currentState.equals("AWAKE"));
-        System.out.println(currentState.contains("AWAKE"));
     }
 
     //Loads a file using FileReader and updates knownMessages and knownResponses
